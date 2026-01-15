@@ -1,5 +1,3 @@
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -13,7 +11,45 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
-    "module": "preserve"
+    "module": "preserve",
+    "paths": {
+      "@spartan-ng/helm/button": [
+        "./src/app/spartan/button/src/index.ts"
+      ],
+      "@spartan-ng/helm/checkbox": [
+        "./src/app/spartan/checkbox/src/index.ts"
+      ],
+      "@spartan-ng/helm/dialog": [
+        "./src/app/spartan/dialog/src/index.ts"
+      ],
+      "@spartan-ng/helm/field": [
+        "./src/app/spartan/field/src/index.ts"
+      ],
+      "@spartan-ng/helm/icon": [
+        "./src/app/spartan/icon/src/index.ts"
+      ],
+      "@spartan-ng/helm/input": [
+        "./src/app/spartan/input/src/index.ts"
+      ],
+      "@spartan-ng/helm/utils": [
+        "./src/app/spartan/utils/src/index.ts"
+      ],
+      "@spartan-ng/helm/label": [
+        "./src/app/spartan/label/src/index.ts"
+      ],
+      "@spartan-ng/helm/separator": [
+        "./src/app/spartan/separator/src/index.ts"
+      ],
+      "@spartan-ng/helm/combobox": [
+        "./src/app/spartan/combobox/src/index.ts"
+      ],
+      "@spartan-ng/helm/input-group": [
+        "./src/app/spartan/input-group/src/index.ts"
+      ],
+      "@spartan-ng/helm/textarea": [
+        "./src/app/spartan/textarea/src/index.ts"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
