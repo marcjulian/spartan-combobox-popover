@@ -26,6 +26,7 @@ import type { ClassValue } from 'clsx';
 			data-slot="combobox-trigger"
 			[class]="_computedClass()"
 			[variant]="variant()"
+      type="button"
 		>
 			<ng-content />
 			<ng-icon name="lucideChevronDown" />
